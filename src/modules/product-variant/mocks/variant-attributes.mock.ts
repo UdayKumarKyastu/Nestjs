@@ -1,0 +1,37 @@
+import { Attribute } from '@commercetools/platform-sdk'
+
+export const variantAttributesMock: Attribute[] = [
+  {
+    name: 'description',
+    value: {
+      'en-GB': '',
+      'en-HK': '',
+      'zh-HK': '',
+      'fr-FR': '',
+      'en-US': '',
+    },
+  },
+  { name: 'suitableForVegetarians', value: false },
+  { name: 'suitableForVegans', value: false },
+  { name: 'containsAllergens', value: [] },
+  { name: 'visible', value: false },
+  { name: 'country', value: { key: 'UK', label: 'United Kingdom' } },
+  { name: 'posId', value: '8266424' },
+  { name: 'availableForCollection', value: false },
+  { name: 'availableForPretDelivers', value: false },
+  { name: 'availableForOutposts', value: false },
+  { name: 'visibleOnDeliveryWebsite', value: false },
+  { name: 'chefSpecial', value: false },
+  { name: 'displayAsNew', value: false },
+  { name: 'howToDisplay', value: [] },
+  { name: 'pretDeliversAvailableAllDay', value: false },
+  { name: 'pretDeliversAvailableForLunch', value: false },
+  { name: 'isDecafPod', value: false },
+  { name: 'isBlack', value: false },
+  { name: 'milkIsSemiSkimmed', value: false },
+  { name: 'milkIsSkimmed', value: false },
+  { name: 'milkIsOat', value: false },
+  { name: 'milkIsRiceCoconut', value: false },
+  { name: 'milkIsSoya', value: false },
+  { name: 'howToDisplay', value: [] },
+]
