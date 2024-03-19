@@ -1,0 +1,91 @@
+{
+  meta: {
+    createdAt: '2021-03-02T11:57:15.264Z',
+    host: 'https://api.europe-west1.gcp.commercetools.com',
+    resHumanReadable: true,
+    resUncompressed: true,
+  },
+  req: {
+    url: '/dev-pret-products/categories',
+    method: 'GET',
+    headers: {
+      'content-type': 'application/json',
+      accept: 'application/json',
+      'accept-encoding': 'gzip,deflate',
+      connection: 'close',
+      authorization: 'Bearer dummy_token',
+      'user-agent': 'node-fetch/1.0 (+https://github.com/bitinn/node-fetch)',
+    },
+    body: '',
+  },
+  res: {
+    status: 200,
+    headers: {
+      server: ['istio-envoy'],
+      date: ['Tue, 02 Mar 2021 11:57:15 GMT'],
+      'content-type': ['application/json; charset=utf-8'],
+      'x-correlation-id': ['projects-0fa45062-1000-42e1-8f93-b66e08e34803'],
+      'server-timing': ['projects;dur=3'],
+      'access-control-allow-origin': ['*'],
+      'access-control-allow-headers': [
+        'Accept, Authorization, Content-Type, Origin, User-Agent, X-Correlation-ID',
+      ],
+      'access-control-allow-methods': ['GET, POST, DELETE, OPTIONS'],
+      'access-control-max-age': ['299'],
+      'content-encoding': ['gzip'],
+      'x-envoy-upstream-service-time': ['4'],
+      via: ['1.1 google'],
+      'alt-svc': ['clear'],
+      connection: ['close'],
+      'transfer-encoding': ['chunked'],
+    },
+    body: {
+      limit: 20,
+      offset: 0,
+      count: 1,
+      total: 1,
+      results: [
+        {
+          id: 'e3218cc1-3da2-4ea5-9663-34aa18a7c996',
+          version: 2,
+          lastMessageSequenceNumber: 1,
+          createdAt: '2020-04-09T17:19:43.572Z',
+          lastModifiedAt: '2020-09-16T13:56:34.694Z',
+          lastModifiedBy: {
+            clientId: 'uMo9RbYfJxP0iaKqpyZ8VFFL',
+            isPlatformClient: false,
+          },
+          createdBy: {
+            clientId: '6gthLR9Y9TnVRNd8Ehay_943',
+            isPlatformClient: false,
+          },
+          key: 'UK',
+          name: {
+            en: 'UK',
+            'en-GB': 'UK',
+            'en-US': 'UK',
+          },
+          slug: {
+            en: 'uk',
+            'en-GB': 'uk',
+            'en-US': 'uk',
+          },
+          ancestors: [],
+          orderHint: '0.0',
+          custom: {
+            type: {
+              typeId: 'type',
+              id: '6b2715bf-dcce-4430-a8bc-e3f45fffc79a',
+            },
+            fields: {
+              startTime: '00:00',
+              endTime: '00:00',
+              automaticallyImported: true,
+            },
+          },
+          assets: [],
+        },
+      ],
+    },
+  },
+}

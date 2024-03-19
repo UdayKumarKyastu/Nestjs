@@ -1,0 +1,51 @@
+{
+  meta: {
+    createdAt: '2021-03-02T10:37:31.763Z',
+    host: 'https://auth.europe-west1.gcp.commercetools.com',
+    resHumanReadable: true,
+    resUncompressed: true,
+  },
+  req: {
+    url: '/oauth/token',
+    method: 'POST',
+    headers: {
+      authorization: 'Basic Y2xpZW50LWlkOmNsaWVudC1zZWNyZXQ=',
+      'content-type': 'application/x-www-form-urlencoded',
+      accept: '*/*',
+      'accept-encoding': 'gzip,deflate',
+      'user-agent': 'node-fetch/1.0 (+https://github.com/bitinn/node-fetch)',
+      connection: 'close',
+    },
+    body: 'Z3JhbnRfdHlwZT1jbGllbnRfY3JlZGVudGlhbHM=',
+  },
+  res: {
+    status: 200,
+    headers: {
+      server: ['istio-envoy'],
+      date: ['Tue, 02 Mar 2021 11:57:15 GMT'],
+      'content-type': ['application/json; charset=utf-8'],
+      pragma: ['no-cache'],
+      'cache-control': ['no-store'],
+      'x-correlation-id': ['auth-315b5f9b-6c64-49e5-b916-b7de0a4433ee'],
+      'server-timing': ['auth;dur=17'],
+      'access-control-allow-origin': ['*'],
+      'access-control-allow-headers': [
+        'Accept, Authorization, Content-Type, Origin, User-Agent, X-Correlation-ID',
+      ],
+      'access-control-allow-methods': ['GET, POST, DELETE, OPTIONS'],
+      'access-control-max-age': ['299'],
+      'content-encoding': ['gzip'],
+      'x-envoy-upstream-service-time': ['18'],
+      via: ['1.1 google'],
+      'alt-svc': ['clear'],
+      connection: ['close'],
+      'transfer-encoding': ['chunked'],
+    },
+    body: {
+      access_token: 'dummy_token',
+      token_type: 'Bearer',
+      expires_in: 172301,
+      scope: 'view_categories:dev-pret-products view_import_sinks:dev-pret-products view_project_settings:dev-pret-products view_published_products:dev-pret-products view_orders:dev-pret-products manage_payments:dev-pret-products view_states:dev-pret-products view_discount_codes:dev-pret-products view_customers:dev-pret-products view_types:dev-pret-products create_anonymous_token:dev-pret-products view_products:dev-pret-products introspect_oauth_tokens:dev-pret-products view_payments:dev-pret-products view_messages:dev-pret-products manage_orders:dev-pret-products manage_customers:dev-pret-products view_shopping_lists:dev-pret-products view_cart_discounts:dev-pret-products view_stores:dev-pret-products view_order_edits:dev-pret-products',
+    },
+  },
+}
